@@ -114,3 +114,73 @@
     </div>
     <button id="next"> <img src="https://cdn.myshoptet.com/usr/557975.myshoptet.com/user/documents/upload/Adéla_Malibu C/arrow-right.png" alt="" /> </button>
 </div>
+
+<style>
+ #carousel-wrapper {
+         width: 100%;
+         max-width: 1000px;
+         position: relative;
+         margin: 0 auto;
+    }
+    
+    #carousel {
+         overflow: auto;
+         scroll-behavior: smooth;
+         scrollbar-width: none;
+         width:100%;
+         margin: 0 auto;
+         position: relative;
+    }
+    
+    #carousel::-webkit-scrollbar {
+         height: 0;
+    }
+    
+    #prev,
+    #next {
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         background: transparent;
+         border: none;
+         outline: 0;
+         cursor: pointer;
+         position: absolute;
+         visibility: hidden;
+    }
+    
+    #prev {
+         top: 40%;
+         left: 0;
+    }
+    
+    #next {
+         top: 40%;
+         right: 0;
+    }
+    
+    #content {
+         display: flex;
+         flex-direction: row;
+         margin: auto;
+    }
+    
+    .slide {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+         padding: 5px;
+    }
+    
+    a {
+         text-decoration: none;
+         font-size: 15px;
+    }
+
+
+
+
+
+
+</style>
